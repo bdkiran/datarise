@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import style from "./features.module.css"
-import FeatureLink from "../components/pageTools/FeatureLink"
+import FeatureLink from "../components/pageTools/featurelink"
 
 const Features = ({
   data: {
