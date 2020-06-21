@@ -1,6 +1,6 @@
 backend:
-    name: test-repo
-    #repo: bdkiran/datarise
+    name: github
+    repo: bdkiran/datarise
   
 media_folder: src/assets
 public_folder: static
