@@ -1,0 +1,43 @@
+.fetContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.fetContainer a {
+    text-decoration: none;
+    color: black;
+}
+.fetContainer h3 {
+    color: black
+}
+  
+.fetContainer:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 320px)  { 
+    .fetContainer{ flex-direction: column; } 
+}
+@media only screen and (min-width: 768px)  { 
+    .fetContainer{ 
+        flex-direction: row; 
+    }
+    .imageContainer {
+        margin-right: 10px;
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .imageContainer {
+        margin-right: 20px;
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .imageContainer {
+        margin-right: 20px;
+        width: 30%;
+    }
+}

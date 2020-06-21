@@ -1,0 +1,15 @@
+.titleContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleContainer {
+    z-index: 2;
+    border-bottom: solid black 1px;
+}
+
+.featureContainer {
+    display: flex;
+    flex-direction: column;
+}
+

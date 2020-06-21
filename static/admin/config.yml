@@ -1,0 +1,30 @@
+backend:
+    name: test-repo
+    #repo: bdkiran/datarise
+  
+media_folder: src/assets
+public_folder: static
+  
+collections:
+    - name: definitions
+      label: Definitions
+      folder: "src/pages/markdown-pages/definitions"
+      create: true
+      fields:
+        - { name: category, label: Category, default: 'definition', hint: 'Do not change'}
+        - { name: path, label: Path, default: '/definition/', hint: 'Add the path ending'}
+        - { name: date, label: Date, widget: date, format: 'MMM Do YYYY' }
+        - { name: title, label: Title }
+        - { name: body, label: Body, widget: markdown }
+
+    - name: features
+      label: Feature
+      folder: "src/pages/markdown-pages/features"
+      create: true
+      fields:
+        - { name: category, label: Category, default: 'feature', hint: 'Do not change'}
+        - { name: path, label: Path, default: '/feature/', hint: 'Add the path ending'}
+        - { name: date, label: Date, widget: date, format: 'MMM Do YYYY' }
+        - { name: title, label: Title }
+        - { name: image, label: Image, widget: image, allow_multiple: false }
+        - { name: body, label: Body, widget: markdown }

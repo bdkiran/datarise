@@ -1,34 +1,56 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Data Reference`,
+    description: `Your Reference Guide for the Future`,
+    author: `@datareference`,
+    //siteUrl: `https://www.datareference.net`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/static/assets`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    // {
+    //   resolve: `gatsby-plugin-netlify-cms-paths`,
+    //   options: {
+    //   // Path to your Netlify CMS config file
+    //   cmsConfig: `/static/admin/config.yml`
+    //   }
+    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `definitions`,
+        path: `${__dirname}/src/pages/markdown-pages/definitions`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `definitions`,
+        path: `${__dirname}/src/pages/markdown-pages/features`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Data Reference`,
+        short_name: `Data`,
+        icon: `src/images/icon.png`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`,
+    //`gatsby-plugin-sitemap`
   ],
 }

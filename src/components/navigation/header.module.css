@@ -1,0 +1,68 @@
+.headerContainer {
+    background-color: rgba(103, 128, 159, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logoContainer {
+    width: 120px;
+    height: 60px;
+}
+
+.logoContainer img {
+    height: 100%;
+    width: 100%;
+}
+
+.logoContainer {
+    cursor: pointer;
+}
+
+.linkContainer li, .linkContainer a, .linkContainer button {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px
+}
+
+.logoText {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin:0;
+}
+
+.linkContainer {
+    list-style: none;
+}
+
+.linkContainer li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.linkContainer li a {
+    transition: all 0.3s ease 0s;
+}
+
+.linkContainer li a:hover {
+    color: orange;
+}
+
+
+@media only screen and (min-width: 320px)  { 
+    .headerContainer{ 
+        padding: 10px 0px;
+     } 
+}
+
+@media only screen and (min-width: 768px)  { 
+    .headerContainer{ 
+        justify-content: space-between;
+        padding: 20px 10%;
+    }
+}
+

@@ -1,0 +1,43 @@
+.headContainer {
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid 1px rgba(0,0,0,.2);
+    background-color: rgba(159, 106, 103, 0.3);
+}
+
+.headContainer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.sectionHeading {
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.sectionHeading h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 320px)  { 
+    .cardContainer{ 
+        flex-direction: column; 
+        flex-wrap: nowrap;
+
+    } }
+
+@media only screen and (min-width: 600px)  {
+     .cardContainer{ 
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+}
