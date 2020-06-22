@@ -13,7 +13,7 @@ collections:
       fields:
         - { name: category, label: Category, default: 'definition', hint: 'Do not change'}
         - { name: slug, label: Slug, default: '/definition/', hint: 'Add the path ending'}
-        - { name: date, label: Date, widget: date, format: 'MMM Do YYYY' }
+        - { name: date, label: Date, widget: date, format: 'YYYY-MM-DD' }
         - { name: title, label: Title }
         - { name: body, label: Body, widget: markdown }
 
@@ -24,7 +24,7 @@ collections:
       fields:
         - { name: category, label: Category, default: 'feature', hint: 'Do not change'}
         - { name: slug, label: Slug, default: '/feature/', hint: 'Add the path ending'}
-        - { name: date, label: Date, widget: date, format: 'MMM Do YYYY' }
+        - { name: date, label: Date, widget: date, format: 'YYYY-MM-DD' }
         - { name: title, label: Title }
         - { name: image, label: Image, widget: image, allow_multiple: false }
         - { name: body, label: Body, widget: markdown }

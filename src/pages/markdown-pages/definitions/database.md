@@ -1,7 +1,7 @@
 ---
 category: definition
 slug: /definition/database
-date: Jun 22nd 2020
+date: "2019-05-04"
 title: Database
 ---
 ### What is a database?
