@@ -1,6 +1,6 @@
 ---
 category: definition
-path: /definition/database
+slug: /definition/database
 date: Jun 22nd 2020
 title: Database
 ---
