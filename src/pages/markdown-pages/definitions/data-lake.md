@@ -1,9 +1,13 @@
 ---
 category: definition
 slug: /definition/datalake
-date: 2020-06-22T00:00:00.000Z
+date: 2020-06-28
 title: Data Lake
 ---
-### What is a data lake?
+## What is a data lake?
 
-A data lake is a system or repository of data stored in its natural/raw format, usually object blobs or files. A data lake is usually a single store of all enterprise data including raw copies of source system data and transformed data used for tasks such as reporting, visualization, advanced analytics and machine learning. A data lake can include structured data from relational databases (rows and columns), semi-structured data (CSV, logs, XML, JSON), unstructured data (emails, documents, PDFs) and binary data (images, audio, video). A data lake can be established "on premises" (within an organization's data centers) or "in the cloud" (using cloud services from vendors such as Amazon, Google and Microsoft).
+A data lake is a centralized repository of data. This data usually consists of all enterprise data within an organization from all the separate departments. The data contained in the repository is stored in its raw format, typically as object blobs or files. Common types of data include structured data from relational databases (rows and columns), semi-structured data (JSON, XML, CSV, logs), unstructured data (emails, documents, PDFs) and binary data (images, audio, video).
+
+## Why are data lakes used?
+
+Within an organization, data sources are from different operations are stored in different formats. For an organization, combining all these data sources as one can lead to important analytics insights. The ability to store your data as-is, without having to first structure the data can speed up this process greatly. 
