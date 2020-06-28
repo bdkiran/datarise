@@ -3,7 +3,7 @@ module.exports = {
     title: `Data Reference`,
     description: `Your Reference Guide for the Future`,
     author: `@datareference`,
-    //siteUrl: `https://www.datareference.net`,
+    siteUrl: `https://www.datareference.net`,
   },
   plugins: [
     {
@@ -16,13 +16,6 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-netlify-cms-paths`,
-    //   options: {
-    //   // Path to your Netlify CMS config file
-    //   cmsConfig: `/static/admin/config.yml`
-    //   }
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -51,6 +44,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
-    //`gatsby-plugin-sitemap`
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-sitemap`
   ],
 }
