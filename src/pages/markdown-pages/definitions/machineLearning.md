@@ -1,11 +1,15 @@
 ---
-slug: "/definition/ml"
-date: "2019-05-04"
-title: "Machine Learning"
 category: definition
+slug: /definition/ml
+date: 2020-06-29
+title: Machine Learning
 ---
-Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
+## What is Machine Learning?
 
-The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide. The primary aim is to allow the computers learn automatically without human intervention or assistance and adjust actions accordingly.
+Machine learning refers to the study and creation of algorithms that improve with experience. Machine learning algorithms are an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
 
-But, using the classic algorithms of machine learning, text is considered as a sequence of keywords; instead, an approach based on semantic analysis mimics the human ability to understand the meaning of a text.
+These machine learning algorithms are based off of mathematical models that are derived from observations or data. This is similar or an expansion of prediction models used in the vast field of computational statistics.
+
+## Why is Machine Learning Used?
+
+When used in business, the application of machine learning is referred to as predictive analysis. Machine learning's main application is to allow the computers to learn automatically without human assistance. This is especially useful for certain tasks like email filtering and computer vision labeling, as conventional algorithms do not provide great solutions in practice.
