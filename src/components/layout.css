@@ -12,6 +12,7 @@ body {
 
 .mainContainer {
   display: flex;
+  min-height: 85vh;
 }
 
 .mainInnerSide {

@@ -7,8 +7,6 @@ import { Link, navigate } from "gatsby"
 const Footer = ({siteTitle}) => (
     <footer>
         © {new Date().getFullYear() + " "+ siteTitle }
-        <br/>
-        <Link to="/sitemap.xml">Sitemap</Link>
     </footer>
 )
 
