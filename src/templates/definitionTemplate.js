@@ -13,7 +13,7 @@ export default function definitionTemplate({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <SEO title="Posts" />
+      <SEO title={frontmatter.title} />
       <div className={style.definitionContainer}>
       <div className={style.title}>
         <h1>{frontmatter.title}</h1>

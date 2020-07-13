@@ -14,7 +14,7 @@ export default function featureTemplate({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <SEO title="Posts" />
+      <SEO title={frontmatter.title} />
       <div className={style.definitionContainer}>
         <FeatureImage src={frontmatter.image}/>
         <div className={style.title}>
