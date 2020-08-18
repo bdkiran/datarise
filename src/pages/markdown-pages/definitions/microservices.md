@@ -6,13 +6,13 @@ title: Microservices
 ---
 ## What are Microservices?
 
-Microservices refers to an architectural and organizational technique that structures an application as a collection of services. These services are owned by small independent groups, and talk to one another via nicely-described APIs.
+Microservices refer to an architectural and organizational technique that structures an application as a collection of services. These services are owned by small independent groups, and talk to one another via nicely-described APIs.
 
-Microservice design patterns have become increasingly popular in recent years. The design pattern is based on the philosophy of dividing substantial software obligations into smaller, independent and loosely coupled programs (services). When implemented correctly, a system will have dynamic and agile qualities. Each services API are in control of execution providing useful abstractions as responsibilities are defined.
+The microservice design patterns have become increasingly popular in recent years. The design pattern is based on the philosophy of dividing substantial software obligations into smaller, independent and loosely coupled programs(services). When implemented correctly, a system will have dynamic and agile qualities. Each service API provides useful abstractions so that other services interacting with it do not have to worry about implantation details.
 
 ## Advantages of Microservices
 
-The advantages of microservices appear convincing enough to a few technology giants. This includes() consisting of cloud computing (Amazon, Netflix, Azure, Google cloud platform, and eBay) to adopt the technique. With the advent of cloud computing, people have greater access to machines or compute instances. This environment makes microservices architecture appealing. Compared to other monolithic layout systems, microservices provide:
+The advantages of microservices appear convincing to a few technology giants. This includes Amazon, Netflix and Uber just to name a few. With the advent of cloud computing(such as AWS, Azure, GCP), people have greater access to machines or compute instances. This paired with containerization software such as Docker and Kubernetes makes microservices accessible even to startups. Compared to other monolithic layout systems, microservices provide:
 
 
 * Improved fault isolation: larger applications will not be commonly laid low with unmarried-module failure.
@@ -30,5 +30,5 @@ Some of the pain points and dangers related to microservices structure designs c
 * More vital services the same more sources: A couple of databases and transaction control can be painful.
 * Extensive testing is hard: finding out a primarily microservices based application may be bulky. In a monolithic method, we would need to launch our struggle on a software server and ensure connectivity to the underlying database. With microservices, each set up carrier has to be devoted earlier than sorting out may be completed.
 * Debugging problems can be extra severe: Every carrier has its report set to bypass: registration, information, and other statistics.
-* Deployment Challengers: The product may want coordination between a couple of offerings, which might not be as simple as deploying warfare in a field.
+* Deployment Challenges: The product may want coordination between a couple of offerings, which might not be as simple as deploying warfare in a field.
 * Large small and small product businesses: Microservices are best for big corporations, but they can be slower to install and too complicated for small agencies that want to create and iterate quickly, and do not want to get bogged down complicated version.
