@@ -50,7 +50,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: process.env.GATSBY_GA_KEY,
+        trackingId: "UA-175645700-1",
       },
     },
   ],
