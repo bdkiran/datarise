@@ -3,7 +3,7 @@ category: feature
 slug: /feature/streambatchproc
 date: 2020-08-23T00:00:00.000Z
 title: Understanding Streaming and Batch Processing Systems
-image: codeImage.jpg
+image: insights_image.jpg
 ---
 In the big data world an ongoing debate between using batch or stream processing. Developers in todays world need to develop and maintain with systems that scale. This is especially true for data processing systems, the amount of data flowing through can range from terabytes to petabytes.
 
