@@ -3,7 +3,7 @@ category: feature
 slug: /feature/esvsmongo
 date: 2019-05-04T00:00:00.000Z
 title: Elasticsearch vs. MongoDB
-image: insights_image.jpg
+image: codeImage.jpg
 ---
 As the NoSQL movement has gained popularity over the past couple of years so has the rise of Elasticsearch and MongoDB. They have both grown significantly since their inception and have found their way into many companies' tech stacks. It is important to distinguish the differences between them so that you can make an informed decision about using one or the other for your use case.
 
