@@ -2,8 +2,7 @@ backend:
     name: github
     repo: bdkiran/datarise
   
-media_folder: static/assets
-public_folder: static
+media_folder: /static/assets
   
 collections:
     - name: definitions
