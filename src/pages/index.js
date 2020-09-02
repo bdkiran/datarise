@@ -15,12 +15,12 @@ const IndexPage = ({
 
   const Definitions = edges
     .filter(edge => edge.node.frontmatter.category === "definition") //filter based on some criteria
-    .slice(0, size) //Return only the first three
+    .slice(0, size) //Return only the first four
     .map(edge => <CardLink key={edge.node.id} post={edge.node} />)
 
   const Features = edges
     .filter(edge => edge.node.frontmatter.category === "feature") //filter based on some criteria
-    .slice(0, size) //Return only the first three
+    .slice(0, size) //Return only the first four
     .map(edge => <CardLink key={edge.node.id} post={edge.node} />)
   return (
     <Layout>

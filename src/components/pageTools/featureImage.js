@@ -3,7 +3,7 @@ import Img from 'gatsby-image'
 import { StaticQuery, graphql } from 'gatsby'
 
 function renderImage(file) {
-  return <Img fluid={file.node.childImageSharp.fluid} />
+  return <Img fluid={file.node.childImageSharp.fluid} alt={file.node.relativePath}/>
 }
 
 const MyImg = function(props) {
@@ -37,4 +37,4 @@ const MyImg = function(props) {
   )
 }
 
-export default MyImg
+export default MyImg;

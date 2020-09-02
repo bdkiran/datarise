@@ -53,6 +53,12 @@ module.exports = {
         trackingId: "UA-175645700-1",
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.datareference.net`,
+      },
+    }
   ],
   
 }
