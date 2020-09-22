@@ -1,6 +1,6 @@
 ---
 category: feature
-slug: /feature/esvsmongo
+slug: /features/esvsmongo
 date: 2019-05-04T00:00:00.000Z
 title: Elasticsearch vs. MongoDB
 image: codeImage.jpg
@@ -20,6 +20,7 @@ Another thing that these two datastores have in common is their ability to suppo
 When Elasticsearch is distributed to many machines it’s also called a cluster. Each ‘machine” instance is called a node. Data is split into shards and then distributed amongst the nodes in the cluster. There is no central configuration machine, instead elasticsearch relies on master nodes to reach a quorum to resolve discrepancies.
 
 ## Differences
+
 There are a number of differences that exist for MongoDB and Elasticsearch. It is important to note the original design goals of each data store. MongoDB was originally designed as a general purpose database. This meant support build around CRUD characteristics.
 MongoDB documents are contained in collections which are similar to relational database tables. MongoDB documents can be stored as JSON data. An additional functionality is that data can be encoded and stored in BSON (binary encoding of json). This allows for greater efficiency of storage as BSON documents are smaller in size than their JSON counterparts.
 
@@ -30,4 +31,3 @@ This support for searching and indexing of large amounts of data makes Elasticse
 ## Conclusion
 
 Both databases are a great option for supporting software systems. It’s important to note when making design decisions, that there is not often a ‘one size fits all’ option. It is critical that the use case is determined and the pros and cons are weighed out to decide what solution to use.
-

@@ -1,10 +1,8 @@
 .card {
     margin: 10px 10px;
     flex: 0 0 43%; /* puts everything into 1/2s.. */
-}
-
-.card a {
     text-decoration: none;
+    color: black
 }
 
 .card h3 {

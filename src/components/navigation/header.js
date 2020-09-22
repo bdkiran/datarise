@@ -1,4 +1,4 @@
-import { Link, navigate } from "gatsby"
+import { Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.css"
@@ -6,9 +6,9 @@ import logo from "../../images/Logo.png"
 
 const Header = ({ siteTitle }) => (
   <header className={styles.headerContainer}>
-    <div className={styles.logoContainer} onClick={event => {navigate("/")}}>
+    <a className={styles.logoContainer} href="/">
       <img src={logo} alt="Logo" />
-    </div>
+    </a>
     <nav>
       <ul className={styles.linkContainer}>
         <li className={styles.linker}><Link to="/dictionary/">Dictionary</Link></li>
